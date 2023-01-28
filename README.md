@@ -8,4 +8,9 @@ Yelp, Google Reviews, Rotten Tomatoes, IMDB. All great ways to read reviews and 
 Our website will be a totally new way to gauge music, TV shows, local restaurants, political views, and so much more. Utilizing a simple poll system, the site attracts the feedback from the most ordinary of people. Anyone can jump in, vote, and watch live numbers on how much people like and dislike Kanye's new release. See simple stats on local restaurants like food quality, price, convenience. Its the place for getting a sense of what people, who are just like you, think about anything. Your one-stop shop for rating life.
 
 
+![IMG_0364](https://user-images.githubusercontent.com/99853592/215228985-48227197-7321-4fe0-974e-05986643e104.jpg)
+
+
+
+
 Pair programmers- Tanner Montgomery and Kyle Standing
