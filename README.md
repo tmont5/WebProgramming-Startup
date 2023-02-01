@@ -21,3 +21,4 @@ Pair programmers- Tanner Montgomery and Kyle Standing
 http://18.116.56.242  public IP address for my server
 ssh -i [filename] umbuntu@18.116.56.242 to ssh into my server
 
+http://kyleandtanner260.click
