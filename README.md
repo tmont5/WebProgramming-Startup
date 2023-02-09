@@ -21,4 +21,7 @@ Pair programmers- Tanner Montgomery and Kyle Standing
 http://18.116.56.242  public IP address for my server
 ssh -i [filename] umbuntu@18.116.56.242 to ssh into my server
 
-http://kyleandtanner260.click
+https://kyleandtanner260.click
+https://simon.kyleandtanner260.click
+
+Tanner: things to remember from the simon project is that in order to push to a website, one has to run the deploy funciton from within its own repository. 
