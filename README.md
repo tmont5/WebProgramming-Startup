@@ -25,3 +25,4 @@ https://kyleandtanner260.click
 https://simon.kyleandtanner260.click
 
 Tanner: things to remember from the simon project is that in order to push to a website, one has to run the deploy funciton from within its own repository. 
+Tanner: Files that don't have the specific permissions will not send properly to the webstie. 
