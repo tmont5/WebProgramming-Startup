@@ -26,4 +26,6 @@ https://simon.kyleandtanner260.click
 
 Tanner: things to remember from the simon project is that in order to push to a website, one has to run the deploy funciton from within its own repository. 
 Tanner: Files that don't have the specific permissions will not send properly to the webstie. 
-Tanner: After finising the HTML and CSS for our startup website, I appreciate more the idea of pair-programming. I also learned the importance of being deliberate, yet creative with CSS settings and HTML designs. 
+
+
+Tanner(CSS and HTML ASSIGNMENT): After finising the HTML and CSS for our startup website, I appreciate more the idea of pair-programming. I also learned the importance of being deliberate, yet creative with CSS settings and HTML designs. 
