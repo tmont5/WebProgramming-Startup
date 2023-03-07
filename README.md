@@ -29,3 +29,6 @@ Tanner: Files that don't have the specific permissions will not send properly to
 
 
 Tanner(CSS and HTML ASSIGNMENT): After finising the HTML and CSS for our startup website, I appreciate more the idea of pair-programming. I also learned the importance of being deliberate, yet creative with CSS settings and HTML designs. 
+
+
+Tanner(Simon JAVASCRIPT): I learned the true important of Javascript. The java made the website so much easier to navigate, and made the game ultimately work. 
