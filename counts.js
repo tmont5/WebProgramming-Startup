@@ -1,6 +1,6 @@
 let itemNames = ['Movie1'];
 
-const likeCounts = new Map();
+let likeCounts = new Map();
 const dislikeCounts = new Map();
 
 function initialize() {
@@ -11,12 +11,11 @@ function initialize() {
 }
 
 function updateCount(itemName, mode) {
-    initialize();
 
     if (mode === 'like') {
         if (likeCounts.has(itemName)) {
-            console.log("Here is count before: " + likeCounts[itemName]);
-            likeCounts[itemName]++;
+            console.log("Here is count before: " + likeCounts.get(itemName));
+            likeCounts[itemName] = likeCounts.get(itemName) + 1;
             console.log("Here is count after: " + likeCounts[itemName]);
         }
         else {
