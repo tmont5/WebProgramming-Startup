@@ -32,3 +32,14 @@ Tanner(CSS and HTML ASSIGNMENT): After finising the HTML and CSS for our startup
 
 
 Tanner(Simon JAVASCRIPT): I learned the true important of Javascript. The java made the website so much easier to navigate, and made the game ultimately work. 
+
+
+margin/border/padding/content
+ls - list
+ssh - access different computer
+sudo - access with authoirty mayor to what you have. 
+chmod - change mode. make something executable. 
+
+DOM textContent - sets the child text for an element
+For promises, async is needed in order to use await
+CNAME creates alias
