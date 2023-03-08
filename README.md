@@ -43,3 +43,7 @@ chmod - change mode. make something executable.
 DOM textContent - sets the child text for an element
 For promises, async is needed in order to use await
 CNAME creates alias
+
+Tanner: things to remember from the simon project is that in order to push to a website, one has to run the deploy funciton from within its own repository.   
+Tanner: Files that don't have the specific permissions will not send properly to the webstie.     
+Kyle: Notes from Startup HTML and CSS assignment- HTML and CSS are hard but can be fun and rewarding. It takes a lot of work to get a website looking exactly how you want it so I had to be patient as we worked. I learned a lot more about Bootstrap from this assignment and how exactly it works and interacts with something you are building on your own.
