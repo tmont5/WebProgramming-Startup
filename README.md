@@ -24,6 +24,26 @@ ssh -i [filename] umbuntu@18.116.56.242 to ssh into my server
 https://kyleandtanner260.click
 https://simon.kyleandtanner260.click
 
+Tanner: things to remember from the simon project is that in order to push to a website, one has to run the deploy funciton from within its own repository. 
+Tanner: Files that don't have the specific permissions will not send properly to the webstie. 
+
+
+Tanner(CSS and HTML ASSIGNMENT): After finising the HTML and CSS for our startup website, I appreciate more the idea of pair-programming. I also learned the importance of being deliberate, yet creative with CSS settings and HTML designs. 
+
+
+Tanner(Simon JAVASCRIPT): I learned the true important of Javascript. The java made the website so much easier to navigate, and made the game ultimately work. 
+
+
+margin/border/padding/content
+ls - list
+ssh - access different computer
+sudo - access with authoirty mayor to what you have. 
+chmod - change mode. make something executable. 
+
+DOM textContent - sets the child text for an element
+For promises, async is needed in order to use await
+CNAME creates alias
+
 Tanner: things to remember from the simon project is that in order to push to a website, one has to run the deploy funciton from within its own repository.   
 Tanner: Files that don't have the specific permissions will not send properly to the webstie.     
 Kyle: Notes from Startup HTML and CSS assignment- HTML and CSS are hard but can be fun and rewarding. It takes a lot of work to get a website looking exactly how you want it so I had to be patient as we worked. I learned a lot more about Bootstrap from this assignment and how exactly it works and interacts with something you are building on your own.
