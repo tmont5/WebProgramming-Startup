@@ -13,28 +13,23 @@ function initialize() {
 function updateCount(itemName, mode) {
 
     if (mode === 'like') {
-        if (likeCounts.has(itemName)) {
-            console.log("Here is count before: " + likeCounts.get(itemName));
-            likeCounts[itemName] = likeCounts.get(itemName) + 1;
-            likeCounts.set(itemName, likeCounts.get(itemName) + 1)
-            console.log("Here is count after: " + likeCounts[itemName]);
+        if(!likeCounts.has(itemName)){
+            likeCounts.set(itemName, 0)
         }
-        else {
-            console.log("Error: itemName does not match any key in likeCounts");
-        }
+        console.log("Here is count before: " + likeCounts.get(itemName));
+        likeCounts[itemName] = likeCounts.get(itemName) + 1;
+        likeCounts.set(itemName, likeCounts.get(itemName) + 1)
+        console.log("Here is count after: " + likeCounts[itemName]);
     }
 
     else if (mode === 'dislike') {
-        initialize()
-        if (dislikeCounts.has(itemName)) {
-            console.log("Here is the count: " + dislikeCounts.get(itemName));
-            dislikeCounts[itemName] = likeCounts.get(itemName) + 1;
-            dislikeCounts.set(itemName, likeCounts.get(itemName) + 1)
-            console.log("Here is count after: " + dislikeCounts[itemName])
+        if(!dislikeCounts.has(itemName)){
+            dislikeCounts.set(itemName, 0)
         }
-        else {
-            console.log("Error: itemName does not match any ket in dislikeCounts");
-        }
+        console.log("Here is the dislike count before: " + dislikeCounts.get(itemName));
+        dislikeCounts[itemName] = dislikeCounts.get(itemName) + 1;
+        dislikeCounts.set(itemName, dislikeCounts.get(itemName) + 1)
+        console.log("Here is dislike count after: " + dislikeCounts[itemName])
     }
 
     else {
