@@ -20,6 +20,8 @@ function updateCount(itemName, mode) {
         likeCounts[itemName] = likeCounts.get(itemName) + 1;
         likeCounts.set(itemName, likeCounts.get(itemName) + 1)
         console.log("Here is count after: " + likeCounts[itemName]);
+        const mySpan = document.querySelector('.vote-count' + '-' + itemName);
+        mySpan.textContent = likeCounts.get(itemName);
     }
 
     else if (mode === 'dislike') {
@@ -30,9 +32,12 @@ function updateCount(itemName, mode) {
         dislikeCounts[itemName] = dislikeCounts.get(itemName) + 1;
         dislikeCounts.set(itemName, dislikeCounts.get(itemName) + 1)
         console.log("Here is dislike count after: " + dislikeCounts[itemName])
+        const mySpan = document.querySelector('.vote-count-dislike' + '-' + itemName);
+        mySpan.textContent = dislikeCounts.get(itemName);
     }
 
     else {
         console.log("Error: mode does not match function call");
     }
+    
 }
