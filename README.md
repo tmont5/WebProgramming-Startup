@@ -47,9 +47,11 @@ CNAME creates alias
 Tanner: things to remember from the simon project is that in order to push to a website, one has to run the deploy funciton from within its own repository.   
 ## Startup Deliverable Notes 
 ### HTML/CSS-
-Tanner: Files that don't have the specific permissions will not send properly to the webstie.     
-HTML and CSS are hard but can be fun and rewarding. It takes a lot of work to get a website looking exactly how you want it so I had to be patient as we worked. I learned a lot more about Bootstrap from this assignment and how exactly it works and interacts with something you are building on your own.
+Tanner: Files that don't have the specific permissions will not send properly to the webstie.  
+  
+Kyle: HTML and CSS are hard but can be fun and rewarding. It takes a lot of work to get a website looking exactly how you want it so I had to be patient as we worked. I learned a lot more about Bootstrap from this assignment and how exactly it works and interacts with something you are building on your own.
 
 ### JavaScript-  
 Tanner: I learned how to connect my javascript code that we used to keep track of voting counts to the previous html objects that we created. It a faily intuitive process. Its super facinating seeing all of the pieces slowing coming together.  
+  
 Kyle: Writing code for this deliverable really bolstered my understanding and skills in JavaScript. It was cool to figure out how to inject the like and dislike counts by manipulating the DOM.
