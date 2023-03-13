@@ -55,3 +55,9 @@ Kyle: HTML and CSS are hard but can be fun and rewarding. It takes a lot of work
 Tanner: I learned how to connect my javascript code that we used to keep track of voting counts to the previous html objects that we created. It a faily intuitive process. Its super facinating seeing all of the pieces slowing coming together.  
   
 Kyle: Writing code for this deliverable really bolstered my understanding and skills in JavaScript. It was cool to figure out how to inject the like and dislike counts by manipulating the DOM.
+
+
+
+
+Notes:
+<scheme>://<domain name>:<port>/<path>?<parameters>#<anchor>
