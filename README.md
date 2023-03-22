@@ -44,7 +44,8 @@ DOM textContent - sets the child text for an element
 For promises, async is needed in order to use await
 CNAME creates alias
 
-Tanner: things to remember from the simon project is that in order to push to a website, one has to run the deploy funciton from within its own repository.   
+Tanner: things to remember from the simon project is that in order to push to a website, one has to run the deploy funciton from within its own repository.
+Tanner: Simon-Service taught me the importance of being deliberate in assigning port numbers. 
 ## Startup Deliverable Notes 
 ### HTML/CSS-
 Tanner: Files that don't have the specific permissions will not send properly to the webstie.  
