@@ -33,6 +33,8 @@ Tanner(CSS and HTML ASSIGNMENT): After finising the HTML and CSS for our startup
 
 Tanner(Simon JAVASCRIPT): I learned the true important of Javascript. The java made the website so much easier to navigate, and made the game ultimately work. 
 
+Tanner(
+
 
 margin/border/padding/content
 ls - list
@@ -47,6 +49,8 @@ CNAME creates alias
 Tanner: things to remember from the simon project is that in order to push to a website, one has to run the deploy funciton from within its own repository.
 
 Tanner: Simon-Service taught me the importance of being deliberate in assigning port numbers. 
+
+Tanner: (SIMON-DB) make sure to include quotes around the credential to the database that you copy and paste into you database file. 
 ## Startup Deliverable Notes 
 ### HTML/CSS-
 Tanner: Files that don't have the specific permissions will not send properly to the webstie.  
