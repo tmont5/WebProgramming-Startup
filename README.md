@@ -53,6 +53,8 @@ Tanner: Simon-Service taught me the importance of being deliberate in assigning 
 Tanner: (SIMON-DB) make sure to include quotes around the credential to the database that you copy and paste into you database file. 
 
 Tanner: (SIMON-Login) i learned about authtokens and how the are used to give permissions to users in order to use the website as they like. Some people can be given more access than others. 
+
+Tanner : (SIMON- websocket) I learned that websockets are needed for peer-to-peer interaction on the web. I have never had to build an app like that, and that is something that is super interesting. 
 ## Startup Deliverable Notes 
 ### HTML/CSS-
 Tanner: Files that don't have the specific permissions will not send properly to the webstie.  
