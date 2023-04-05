@@ -1,0 +1,23 @@
+{
+  "name": "webprogramming-startup",
+  "version": "1.0.0",
+  "description": "CS 260  Github is super helpful.  Check out notes from 260 to resolve problems",
+  "main": "counts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjstanding/WebProgramming-Startup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjstanding/WebProgramming-Startup/issues"
+  },
+  "homepage": "https://github.com/kjstanding/WebProgramming-Startup#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
