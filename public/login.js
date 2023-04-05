@@ -11,10 +11,10 @@
     if (authenticated) {
       document.querySelector('#playerName').textContent = userName;
       setDisplay('loginControls', 'none');
-      setDisplay('playControls', 'block');
+      setDisplay('votingControls', 'block');
     } else {
       setDisplay('loginControls', 'block');
-      setDisplay('playControls', 'none');
+      setDisplay('votingControls', 'none');
     }
   })();
   
