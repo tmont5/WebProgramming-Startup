@@ -2,7 +2,7 @@
   "name": "webprogramming-startup",
   "version": "1.0.0",
   "description": "CS 260  Github is super helpful.  Check out notes from 260 to resolve problems",
-  "main": "service.sj",
+  "main": "service.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
