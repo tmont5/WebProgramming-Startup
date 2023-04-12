@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="chat.css" />
+  <link rel="stylesheet" href="styles.css" />
+  
+  <title>Cool Website</title>
+  <!-- Add any necessary meta tags, stylesheets, or scripts here -->
+</head>
+<body>
+  <header>
+    <nav>
+      <div>
+        <a href="index.html">Cool Website</a>
+      </div>
+      <ul>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="food.html">Food</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="chat.html">Chat</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <div class="container-fluid text-center">    
+      <div class="row content">
+        <div class="col-sm-2 sidenav">
+          
+        </div>
+        <div class="col-sm-8 text-left">
+            <body>
+              <div class="name">
+                <fieldset id="name-controls">
+                  <legend>My Name</legend>
+                  <input id="my-name" type="text" />
+                </fieldset>
+              </div>
+          
+              <fieldset id="chat-controls" disabled>
+                <legend>Chat</legend>
+                <input id="new-msg" type="text" />
+                <button onclick="sendMessage()">Send</button>
+              </fieldset>
+              <div id="chat-text"></div>
+            </body>
+        </div>
+        <div class="col-sm-2 sidenav">
+          
+        </div>
+      </div>
+    </div>
+    <!-- Add the main content of your website here, such as a hero section, features, or testimonials -->
+  </main>
+  
+  <footer>
+    <!-- Add a footer with copyright information, contact details, or links to social media here -->
+    <p>Created by Tanner Montgomery and Kyle Standing</p>
+    <p>Please visit our <a href="https://github.com/tmont5/WebProgramming-Startup">GitHub Repository</a></p>
+  </footer>
+  
+  <!-- Add any necessary scripts or other elements at the bottom of the page -->
+  <script src="chat.js"></script>
+</body>
+</html>
