@@ -12,6 +12,8 @@ function initialize() {
 
 function updateCount(itemName, mode) {
 
+
+    /* old logic
     if (mode === 'like') {
         if(!likeCounts.has(itemName)){
             likeCounts.set(itemName, 0)
@@ -39,5 +41,5 @@ function updateCount(itemName, mode) {
     else {
         console.log("Error: mode does not match function call");
     }
-    
+    */
 }

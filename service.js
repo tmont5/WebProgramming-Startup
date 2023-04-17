@@ -69,6 +69,24 @@ apiRouter.get('/user/:email', async (req, res) => {
   res.status(404).send({ msg: 'Unknown' });
 });
 
+apiRouter.post('incrementCount/:itemName/:type', async (req, res) => {
+  const result = await DB.incrementCount(req.params.itemName, req.params.type);
+  if (result.modifiedCount === 1) {
+    res.status(200).send({ success: true });
+  }
+  else {
+    res.status(500).send({ success: false });
+  }
+});
+
+apiRouter.get('getCount/:itemName', async (req, res) => {
+  const result = await DB.getCount(req.params.itemName);
+  if (result) {
+    res.send(result);
+  }
+  res.status(500).send( { msg: 'Something went wrong with getCount' } );
+});
+
 // secureApiRouter verifies credentials for endpoints
 var secureApiRouter = express.Router();
 apiRouter.use(secureApiRouter);
@@ -114,12 +132,6 @@ function setAuthCookie(res, authToken) {
     sameSite: 'strict',
   });
 }
-
-/* Old listen
-app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
-});
-*/
 
 server = app.listen(port, () => {
   console.log(`Listening on ${port}`);
