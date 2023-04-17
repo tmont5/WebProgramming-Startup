@@ -14,7 +14,7 @@ const url = `mongodb+srv://${userName}:${password}@${hostname}`;
 
 const client = new MongoClient(url);
 const userCollection = client.db('startup').collection('user');
-const scoreCollection = client.db('startup').collection('score');
+const countCollection = client.db('startup').collection('count');
 
 function getUser(email) {
   return userCollection.findOne({ email: email });
@@ -38,24 +38,46 @@ async function createUser(email, password) {
   return user;
 }
 
-function addScore(score) {
-  scoreCollection.insertOne(score);
+// Counts
+async function incrementCount(itemName, type) {
+  if(countCollection.findOne({ name: itemName }) === null) {
+    creatCount(itemName);
+  }
+
+  if (type == like) {
+    updateDoc = { $inc: { likes: 1 } };
+  }
+  else {
+    updateDoc = { $inc: { dislikes: 1} };
+  }
+  const filter = { name: itemName }
+  const updateResult = await countCollection.updateOne(filter, updateDoc);
+  console.log("Count updated succesfully!");
+  return updateResult;
 }
 
-function getHighScores() {
-  const query = {};
-  const options = {
-    sort: { score: -1 },
-    limit: 10,
+async function getCounts(itemName) {
+  counts = countCollection.findOne( { name: itemName } )
+  if (counts === null) {
+    return creatCount(itemName);
+  }
+  return counts;
+}
+
+async function creatCount(itemName) {
+  const count = {
+    name: itemName,
+    likes: 0,
+    dislikes: 0
   };
-  const cursor = scoreCollection.find(query, options);
-  return cursor.toArray();
+  await countCollection.insertOne(count)
+  return count;
 }
 
 module.exports = {
   getUser,
   getUserByToken,
   createUser,
-  addScore,
-  getHighScores,
+  incrementCount,
+  getCount
 };
