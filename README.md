@@ -72,5 +72,7 @@ Kyle: Writing code for this deliverable really bolstered my understanding and sk
 ### SERVICES - 
 Tanner: The services side was very complicated, yet interesting. It took alot of patience to learn how to drive the API calls to the database, but it proved to be very worthwhile. 
 
+Kyle: I agree with Tanner's notes that the services part of this project was really complicated. However, it was really satisfying to complete our startup and implement each piece of Node to make it fully functional. I really liked the Websocket piece and also getting the Database to work properly.
+
 Notes:
 <scheme>://<domain name>:<port>/<path>?<parameters>#<anchor>
