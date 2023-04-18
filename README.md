@@ -69,7 +69,8 @@ Tanner: I learned how to connect my javascript code that we used to keep track o
 Kyle: Writing code for this deliverable really bolstered my understanding and skills in JavaScript. It was cool to figure out how to inject the like and dislike counts by manipulating the DOM.
 
 
-
+### SERVICES - 
+Tanner: The services side was very complicated, yet interesting. It took alot of patience to learn how to drive the API calls to the database, but it proved to be very worthwhile. 
 
 Notes:
 <scheme>://<domain name>:<port>/<path>?<parameters>#<anchor>
