@@ -40,11 +40,12 @@ async function createUser(email, password) {
 
 // Counts
 async function incrementCount(itemName, type) {
-  if(countCollection.findOne({ name: itemName }) === null) {
+  counts = await countCollection.findOne({ name: itemName });
+  if (!counts) {
     createCount(itemName);
   }
 
-  if (type == like) {
+  if (type === 'like') {
     updateDoc = { $inc: { likes: 1 } };
   }
   else {
@@ -52,7 +53,6 @@ async function incrementCount(itemName, type) {
   }
   const filter = { name: itemName }
   const updateResult = await countCollection.updateOne(filter, updateDoc);
-  console.log("Count updated succesfully!");
   return updateResult;
 }
 
