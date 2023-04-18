@@ -1,11 +1,24 @@
 async function updateCount(itemName, type) {
     try {
         console.log('Calling incrementCount');
-        const response = await fetch(`/api/incrementCount/${itemName}/${type}`, {
+        const incrementRes = await fetch(`/api/incrementCount/${itemName}/${type}`, {
             method: 'POST',
         });
         console.log('finished fetch call');
-        console.log(response.json());
+        console.log(incrementRes.json());
+
+        const getRes = await fetch(`/api/getCount/${itemName}`);
+        console.log(getRes);
+        nums = getRes.json();
+        console.log(nums);
+        likeCount = nums.likes;
+        console.log('Like count: ' + likeCount);
+        dislikeCount = nums.dislikes;
+        console.log('Dislike count: ' + dislikeCount);
+        const likeEl = document.querySelector('.vote-count' + '-' + itemName);
+        const dislikeEl = document.querySelector('.vote-count-dislike' + '-' + itemName);
+        likeEl.textContent = likeCount;
+        dislikeEl.textContent = dislikeCount;
     }
     catch {
         console.log('Error!');
