@@ -1,7 +1,11 @@
 async function updateCount(itemName, type) {
     try {
         console.log('Calling incrementCount');
-        const respone = await fetch(`/api/incrementCount/${itemName}/${type}`);
+        const response = await fetch('/incrementCount', {
+            method: 'POST',
+        });
+        console.log('finished fetch call');
+        console.log(response);
     }
     catch {
         console.log('Error!');
