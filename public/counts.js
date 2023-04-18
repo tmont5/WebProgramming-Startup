@@ -1,16 +1,17 @@
 async function updateCount(itemName, type) {
     try {
         console.log('Calling incrementCount');
-        const response = await fetch('/incrementCount', {
+        const response = await fetch(`/api/incrementCount/${itemName}/${type}`, {
             method: 'POST',
         });
         console.log('finished fetch call');
-        console.log(response);
+        console.log(response.json());
     }
     catch {
         console.log('Error!');
     }
 }
+
     /* old logic
     if (mode === 'like') {
         if(!likeCounts.has(itemName)){
