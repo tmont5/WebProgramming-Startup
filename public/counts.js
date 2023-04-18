@@ -1,18 +1,12 @@
-let itemNames = ['Movie1'];
-
-let likeCounts = new Map();
-const dislikeCounts = new Map();
-
-function initialize() {
-    for (const name of itemNames) {
-        likeCounts.set(name, 0);
-        dislikeCounts.set(name, 0);
+async function updateCount(itemName, type) {
+    try {
+        console.log('Calling incrementCount');
+        const respone = await fetch(`/api/incrementCount/${itemName}/${type}`);
+    }
+    catch {
+        console.log('Error!');
     }
 }
-
-function updateCount(itemName, mode) {
-
-
     /* old logic
     if (mode === 'like') {
         if(!likeCounts.has(itemName)){
@@ -42,4 +36,3 @@ function updateCount(itemName, mode) {
         console.log("Error: mode does not match function call");
     }
     */
-}

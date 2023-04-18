@@ -41,7 +41,7 @@ async function createUser(email, password) {
 // Counts
 async function incrementCount(itemName, type) {
   if(countCollection.findOne({ name: itemName }) === null) {
-    creatCount(itemName);
+    createCount(itemName);
   }
 
   if (type == like) {
@@ -56,19 +56,19 @@ async function incrementCount(itemName, type) {
   return updateResult;
 }
 
-async function getCounts(itemName) {
-  counts = countCollection.findOne( { name: itemName } )
-  if (counts === null) {
-    return creatCount(itemName);
+async function getCount(itemName) {
+  counts = await countCollection.findOne( { name: itemName } )
+  if (counts) {
+    return counts;
   }
-  return counts;
+  return createCount(itemName);
 }
 
-async function creatCount(itemName) {
+async function createCount(itemName) {
   const count = {
     name: itemName,
     likes: 0,
-    dislikes: 0
+    dislikes: 0,
   };
   await countCollection.insertOne(count)
   return count;
