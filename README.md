@@ -76,3 +76,37 @@ Kyle: I agree with Tanner's notes that the services part of this project was rea
 
 Notes:
 <scheme>://<domain name>:<port>/<path>?<parameters>#<anchor>
+  
+  
+ notes: 
+  HTTP : 80
+  SSH: 22
+  Https: 443
+  
+  200 - success
+  300- content redirects or caches
+  400- client error
+  500 - server error
+  100 - informational
+  
+  NPM install: 
+  In short, npm install is a command used in Node.js to install packages and their dependencies from the npm registry. When you run npm install <package-name>, npm will look up the package in the registry and download its files to your local machine. If the package has any dependencies, npm will also download and install them. Once the installation is complete, the package and its dependencies will be available for use in your Node.js project.
+  
+  
+  
+  Standard HTTP Header
+Request method: This specifies the HTTP method used by the client in the request, such as GET, POST, PUT, DELETE, etc.
+
+Request URL: This is the URL of the resource that the client is requesting.
+
+Status code: This is a three-digit number sent by the server in response to a client request to indicate the status of the request, such as 200 OK, 404 Not Found, 500 Internal Server Error, etc.
+
+Content type: This specifies the format of the content being sent in the request or response, such as text/html, application/json, image/png, etc.
+
+Cache control: This header tells the client and any intermediaries (e.g. proxies) how to cache the response.
+
+User-Agent: This identifies the client software making the request, such as a web browser or a mobile app.
+
+Cookie: This is used to send and store small amounts of data on the client side that can be used to maintain state between requests.
+
+Authorization: This is used to include authentication information in the request headers, such as a token or a username and password.
